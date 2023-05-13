@@ -19,13 +19,18 @@ const config: Configuration = {
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
-      '@hooks': path.resolve(__dirname, 'hooks'),
-      '@components': path.resolve(__dirname, 'components'),
-      '@layouts': path.resolve(__dirname, 'router'),
+      '@router': path.resolve(__dirname, 'router'),
       '@pages': path.resolve(__dirname, 'pages'),
-      '@utils': path.resolve(__dirname, 'utils'),
-      '@typings': path.resolve(__dirname, 'typings'),
       '@icon': path.resolve(__dirname, 'assets/icon'),
+
+      '@utils': path.resolve(__dirname, 'common/utils'),
+      '@typings': path.resolve(__dirname, 'common/typings'),
+      '@hooks': path.resolve(__dirname, 'common/hooks'),
+      '@components': path.resolve(__dirname, 'common/components'),
+      '@atom': path.resolve(__dirname, 'common/components/atom'),
+      '@molecule': path.resolve(__dirname, 'common/components/molecule'),
+      '@organism': path.resolve(__dirname, 'common/components/organism'),
+      '@template': path.resolve(__dirname, 'common/components/template'),
     },
   },
   entry: {

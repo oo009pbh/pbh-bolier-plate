@@ -6,9 +6,14 @@ import { useNavigate } from 'react-router-dom';
 import { Container } from '@pages/Main/styles';
 
 // Components
+import Button from '@atom/Button';
 
 const Main = () => {
-  return <Container></Container>;
+  return (
+    <Container>
+      <Button>버튼</Button>
+    </Container>
+  );
 };
 
 export default Main;
