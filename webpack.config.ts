@@ -23,6 +23,7 @@ const config: Configuration = {
       '@pages': path.resolve(__dirname, 'pages'),
       '@icon': path.resolve(__dirname, 'assets/icon'),
 
+      '@api': path.resolve(__dirname, 'common/api'),
       '@utils': path.resolve(__dirname, 'common/utils'),
       '@styles': path.resolve(__dirname, 'common/styles'),
       '@typings': path.resolve(__dirname, 'common/typings'),

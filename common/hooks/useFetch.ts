@@ -17,7 +17,7 @@ const usePost = (url: string) => {
     async (body: object) => {
       const response = await fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json; charset=UTF-8' },
         body: JSON.stringify(body),
       });
       const data = await response.json();

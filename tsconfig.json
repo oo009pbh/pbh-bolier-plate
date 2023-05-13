@@ -17,6 +17,7 @@
       "@pages/*": ["pages/*"],
       "@icon/*": ["assets/icon/*"],
 
+      "@api/*": ["common/api/*"],
       "@utils/*": ["common/utils/*"],
       "@styles/*": ["common/styles/*"],
       "@typings/*": ["common/typings/*"],
