@@ -10,6 +10,7 @@
     "target": "es5",
     "strict": true,
     "resolveJsonModule": true,
+    "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {
       "@router/*": ["router/*"],
@@ -21,10 +22,10 @@
       "@typings/*": ["common/typings/*"],
       "@hooks/*": ["common/hooks/*"],
       "@components/*": ["common/components/*"],
-      "@atom*": ["common/components/atom*"],
-      "@molecule*": ["common/components/molecule*"],
-      "@organism*": ["common/components/organism*"],
-      "@template*": ["common/components/template*"],
+      "@atom/*": ["common/components/atom/*"],
+      "@molecule/*": ["common/components/molecule/*"],
+      "@organism/*": ["common/components/organism/*"],
+      "@template/*": ["common/components/template/*"],
     }
   }
 }

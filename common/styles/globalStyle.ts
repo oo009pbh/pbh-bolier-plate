@@ -18,6 +18,7 @@ export const globalStyles = css`
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
   }
 
+  // 글로벌 색깔
   :root {
     --black: #0a0a0a;
     --black-40: #404040;
