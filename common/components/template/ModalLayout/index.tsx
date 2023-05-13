@@ -11,7 +11,7 @@ import { DOMEvent } from '@typings/event';
 /**
  * @description 중앙정렬 모달 레이아웃
  * @param props
- * @param {object} props.handler 해당 모달을 조작하는 함수 (path: client/src/component/organism/Modal/handlerModal.jsx)
+ * @param {object} props.handler 해당 모달을 조작하는 함수 (path: client/src/component/organism/Modal/handlerModal.ts)
  * @param {String} props.className 해당 모달의 클래스 네임 지정
  * @param {emotionCss} props.css 해당 모달의 커스텀 디자인 (import { css } from "@emotion/react" 필요)
  *

@@ -15,7 +15,7 @@ import { OneButtonModalType } from '@typings/modal';
  * @description 중앙정렬 모달
  *
  * @param props
- * @param {object} props.handler 해당 모달에서 사용하는 핸들러(path: client/src/component/organism/Modal/handlerModal.jsx)
+ * @param {object} props.handler 해당 모달에서 사용하는 핸들러(path: client/src/component/organism/Modal/handlerModal.ts)
  * @param {function} props.buttonClick 버튼 클릭시 실행되는 함수 미입력시 모달 닫기
  * @param {string} props.label 버튼 안 텍스트
  *
