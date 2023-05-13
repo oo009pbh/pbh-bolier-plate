@@ -4,11 +4,13 @@ export const defaultButtonStyles = css`
   align-items: center;
   justify-content: center;
 
-  border-radius: 4px;
-  box-sizing: border-box;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
 
   width: 335px;
   height: 55px;
+
+  color: var(--white);
+  background-color: var(--primary);
 `;

@@ -17,6 +17,7 @@
       "@icon/*": ["assets/icon/*"],
 
       "@utils/*": ["common/utils/*"],
+      "@styles/*": ["common/styles/*"],
       "@typings/*": ["common/typings/*"],
       "@hooks/*": ["common/hooks/*"],
       "@components/*": ["common/components/*"],

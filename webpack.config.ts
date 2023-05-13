@@ -24,6 +24,7 @@ const config: Configuration = {
       '@icon': path.resolve(__dirname, 'assets/icon'),
 
       '@utils': path.resolve(__dirname, 'common/utils'),
+      '@styles': path.resolve(__dirname, 'common/styles'),
       '@typings': path.resolve(__dirname, 'common/typings'),
       '@hooks': path.resolve(__dirname, 'common/hooks'),
       '@components': path.resolve(__dirname, 'common/components'),
